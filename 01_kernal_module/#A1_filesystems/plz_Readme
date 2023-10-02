@@ -1,0 +1,25 @@
+the first assignment include two bash file the first one 
+
+EXAMPLE
+
+the first file 
+
+./filesystem.sh <disk_name> <the_partion_number> <the_partion_size>
+	
+and it wil divide the disks to your desired size
+
+**********************************************************
+
+the secound file 
+
+./mountng.sh 	<the file system type(ext2/ext4)> <the parted partion to be mounted>
+
+make the file system and mount it 
+
+**********************************************************
+
+the third file 
+
+./persistance_mounting.sh <the parted partion which is mounted>
+
+load its specifications on etc/fstab so it not be removed when restarting
